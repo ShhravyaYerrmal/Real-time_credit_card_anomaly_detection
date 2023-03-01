@@ -46,6 +46,7 @@ Cassandra have built in aggregations and join.
 
 
 
+<img width="671" alt="Screenshot 2023-02-28 at 11 22 35 AM" src="https://user-images.githubusercontent.com/37536963/222216992-84703385-009c-4767-83fa-1de58452ac5a.png">
 
 
 
