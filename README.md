@@ -1,6 +1,13 @@
 # Real-time_credit_card_fraud_detection
----------------------------------------------------------------------------------
-Spark:
+
+Let's assume I have a bank card. My previous purchasing patterns will be discovered. Such as how much money I spend, where I shop, how often I spend, what I buy, etc. Based on this knowledge, My current credit transaction will be suspected of deception if it differs from my previous purchasing patterns; otherwise, it will be considered legitimate. Additionally, the interface will notify me to any fraudulent transactions.
+
+Such forecasts will be based on millions of transactions. Therefore, distributed systems are employed, which can grow as the number of deals rises.
+
+Technology used:
+
+1. Spark:
+
 Distributed Processing Framework.
 Single platform for differnet kinds of data processing : In-memory Data Processing.
 Rdd,Data frame and Data set are used to represent data in Spark.
@@ -14,7 +21,7 @@ Spark GraphX |
 Spark R |
 
 
-Kafka:
+2. Kafka:
 Distributed Persistent Circular Message Queue.
 Messages are stored on the disk for durability.
 
@@ -24,7 +31,7 @@ Application will sent MESSAGES to Kafka cluster.
 Some other application which will consume data from Kafka cluster.
 
 
-Cassandra:
+3. Cassandra:
 
 Distributed Nosql Columnar Database.
 Storage layer in data intensive project.
