@@ -1,4 +1,4 @@
-# Real-time_credit_card_fraud_detection
+# Real-time_credit_card_anomaly_detection
 
 Let's assume I have a bank card. My previous purchasing patterns will be discovered. Such as how much money I spend, where I shop, how often I spend, what I buy, etc. Based on this knowledge, My current credit transaction will be suspected of deception if it differs from my previous purchasing patterns; otherwise, it will be considered legitimate. Additionally, the interface will notify me to any fraudulent transactions.
 
